@@ -1,0 +1,80 @@
+#banner img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+#about,
+#work,
+#catalogue,
+#store {
+  padding-top: 15px;
+}
+
+#about h4 {
+  padding-bottom: 5px;
+}
+
+#about,
+#catalogue,
+#store,
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#catalogue img {
+  padding-top: 15px;
+  height: 500px; 
+  width: auto;
+}
+
+.book-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.book-item {
+  flex: 1 1 200px;
+  margin: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.book-item img {
+  width: auto;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.book-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+#store {
+  padding-bottom: 20px;
+}
+#store li {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid;
+}
+
+@media (max-width: 768px) {
+  .book-row {
+    flex-wrap: wrap;
+  }
+}

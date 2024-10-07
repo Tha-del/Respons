@@ -1,0 +1,64 @@
+#detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+#detail img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+#detail li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#detail ul {
+  padding: 0;
+}
+
+#detail li a {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid;
+  display: inline-block;
+  text-align: center;
+}
+
+#detail li a:hover {
+  background-color: black;
+  color: #f0f0f0;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  #detail {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+  }
+  #detail li a {
+    width: 100%; /* Make buttons full width in mobile */
+    text-align: center;
+  }
+
+  #detail img {
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  #detail img {
+    max-width: 100%; /* Make the image full width on mobile */
+  }
+
+  #detail ul {
+    justify-content: center; /* Center buttons in mobile view */
+  }
+}

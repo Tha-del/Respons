@@ -1,0 +1,29 @@
+#contact {
+  padding-top: 15px;
+}
+
+#contact h1 {
+  text-align: center;
+}
+
+#contact h3,
+#tele-email {
+  padding-top: 1.5rem;
+}
+
+#tele-email strong {
+  font-weight: 500;
+}
+
+.social-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 0px 15px 0px;
+}
+
+.social-media a {
+  font-size: 2rem;
+  color: black;
+}

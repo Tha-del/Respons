@@ -1,0 +1,18 @@
+#about {
+  padding: 15px 0px 15px 0px;
+}
+
+#about h1,
+h3 {
+  text-align: center;
+}
+
+#about h1,
+p {
+  margin-top: 1.5rem;
+}
+
+#about strong {
+  font-weight: 600;
+  font-size: 1.5rem;
+}

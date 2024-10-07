@@ -1,0 +1,37 @@
+h1 {
+  text-align: center;
+}
+
+.book-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.book-item {
+  flex: 1 1 200px;
+  margin: 10px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.book-item img {
+  width: auto;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.book-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .book-row {
+    flex-wrap: wrap;
+  }
+}
